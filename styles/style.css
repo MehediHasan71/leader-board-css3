@@ -1,9 +1,41 @@
-/* Top Players Style  */
+/* ---------------
+Top Players Style
+------------------  */
+
+/* body background */
+/* font family  */
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.player-heading {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #562EFF;
+}
+
+/* top player & top blog border */
+.container {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 31px;
+    width: 870px;
+    /* height: 679px; */
+}
+
 .top-players {}
 
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 29px;
 }
 
 .player {
@@ -14,4 +46,16 @@
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-padding {
+    padding-left: 16px;
+    font-size: 18px;
+
+}
+
+/* horizontal line  */
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 21px;
 }
